@@ -1,0 +1,36 @@
+# Ahsan's Portfolio Assistant — Build Log
+
+## Goal
+Build a Python AI agent that answers questions about my portfolio using my knowledge files.
+
+## Step 1 — Created the project
+Created the Python project in VS Code and created the knowledge folder.
+
+## Step 2 — Added knowledge
+Added:
+- about.md
+- skills.md
+- customer-churn.md
+- heart-disease.md
+- handwritten-digit.md
+
+## Step 3 — Connected OpenRouter
+Connected the Python agent to OpenRouter using the API key stored in the .env file.
+
+## Step 4 — First test
+Asked the agent about my projects and checked whether it could retrieve information from the knowledge files.
+
+## Problem
+[Write the actual problem you encountered.]
+
+## Fix
+[Write what you actually changed to fix it.]
+
+## Step 5 — Final test
+The agent successfully answered questions about my projects, skills, and education using the knowledge base.
+
+## Change from FL-06
+I changed the model/API platform from the original plan because the OpenAI API required paid usage. I used OpenRouter's available free model/API option instead.
+
+## Final result
+The MVP can receive a question in the terminal, retrieve relevant information from the knowledge files, send the context to the AI model, and return an answer.

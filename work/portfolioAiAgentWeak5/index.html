@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahsan Ullah · AI & ML Developer</title>
+  <!-- Font & Icons (lightweight) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Ahsan Ullah</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-badge">Aspiring AI & Machine Learning Developer</p>
+          <h1>Ahsan Ullah</h1>
+          <p class="hero-subheading">Computer Science student building practical solutions with Machine Learning, Deep Learning, and Computer Vision.</p>
+          <p class="hero-intro">I am a CS student passionate about creating intelligent systems. I work with Python, PyTorch, and scikit-learn to solve real-world problems.</p>
+          <div class="hero-buttons">
+            <a href="projects.html" class="btn btn-primary">View My Projects</a>
+            <a href="contact.html" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <!-- abstract AI/ML visual – neural network nodes -->
+          <div class="nn-visual">
+            <div class="node"></div><div class="node"></div><div class="node"></div>
+            <div class="node"></div><div class="node"></div><div class="node"></div>
+            <div class="node"></div><div class="node"></div><div class="node"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED PROJECTS ===== -->
+    <section class="featured-projects section-padding">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+          <!-- card 1 -->
+          <article class="project-card">
+            <div class="project-image-placeholder">
+              <i class="fas fa-chart-line"></i>
+              <span>Customer Churn</span>
+            </div>
+            <div class="project-card-body">
+              <h3>Customer Churn Prediction</h3>
+              <p>Predict telecom customer churn using classification, EDA, and hyperparameter tuning.</p>
+              <div class="tech-tags">
+                <span>Python</span><span>Pandas</span><span>Scikit-learn</span>
+              </div>
+              <div class="card-actions">
+                <a href="projects/customer-churn.html" class="btn btn-small btn-primary">Case Study</a>
+                <a href="#" class="btn btn-small btn-outline" aria-label="GitHub repository (add your link)"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- card 2 -->
+          <article class="project-card">
+            <div class="project-image-placeholder">
+              <i class="fas fa-heartbeat"></i>
+              <span>Heart Disease</span>
+            </div>
+            <div class="project-card-body">
+              <h3>Heart Disease Prediction</h3>
+              <p>ML classification with SMOTE, threshold tuning, and feature engineering.</p>
+              <div class="tech-tags">
+                <span>Python</span><span>SMOTE</span><span>Scikit-learn</span>
+              </div>
+              <div class="card-actions">
+                <a href="projects/heart-disease.html" class="btn btn-small btn-primary">Case Study</a>
+                <a href="#" class="btn btn-small btn-outline" aria-label="GitHub repository"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- card 3 -->
+          <article class="project-card">
+            <div class="project-image-placeholder">
+              <i class="fas fa-robot"></i>
+              <span>Digit Recognizer</span>
+            </div>
+            <div class="project-card-body">
+              <h3>Handwritten Digit Recognition</h3>
+              <p>Deep learning CNN with PyTorch on MNIST dataset.</p>
+              <div class="tech-tags">
+                <span>PyTorch</span><span>CNN</span><span>MNIST</span>
+              </div>
+              <div class="card-actions">
+                <a href="projects/handwritten-digit.html" class="btn btn-small btn-primary">Case Study</a>
+                <a href="#" class="btn btn-small btn-outline" aria-label="GitHub repository"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS PREVIEW ===== -->
+    <section class="skills-preview section-padding bg-dark-alt">
+      <div class="container">
+        <h2 class="section-title">Core Skills</h2>
+        <div class="skills-tags">
+          <span>Python</span><span>C++</span><span>Java</span>
+          <span>NumPy</span><span>Pandas</span><span>Scikit-learn</span>
+          <span>PyTorch</span><span>TensorFlow</span><span>Keras</span>
+          <span>Git</span><span>Jupyter</span><span>VS Code</span>
+        </div>
+        <div class="text-center" style="margin-top: 2rem;">
+          <a href="skills.html" class="btn btn-outline">View all skills <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT PREVIEW ===== -->
+    <section class="about-preview section-padding">
+      <div class="container">
+        <div class="about-preview-grid">
+          <div>
+            <h2 class="section-title">About Me</h2>
+            <p>I am a Computer Science student with a strong interest in AI, Machine Learning, and Deep Learning. I enjoy building projects that solve real problems, from classification to computer vision.</p>
+            <a href="about.html" class="btn btn-primary" style="margin-top: 1rem;">Learn More About Me</a>
+          </div>
+          <div class="about-preview-stats">
+            <div><i class="fas fa-code"></i> Python · C++ · Java</div>
+            <div><i class="fas fa-brain"></i> ML & Deep Learning</div>
+            <div><i class="fas fa-eye"></i> Computer Vision</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT CTA ===== -->
+    <section class="contact-cta section-padding bg-dark-alt">
+      <div class="container text-center">
+        <h2>Let's Connect</h2>
+        <p>Have a project in mind or want to collaborate? I’d love to hear from you.</p>
+        <a href="contact.html" class="btn btn-primary">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <p class="footer-name">Ahsan Ullah</p>
+        <p class="footer-tagline">AI / Machine Learning / Computer Science</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Ahsan Ullah. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
