@@ -1,147 +1,97 @@
-# FlyRank ML Internship — Starter Repo
+# FlyRank AI Internship 
 
-**Applied Search Intelligence: Google Search Ranking & Discoverability**
-
-This is the starting point for the FlyRank ML Internship. You **clone it into your own public
-repo** (one click — *Use this template*), build everything there, and submit that repo URL on
-each assignment in your portal — it's your workspace, your submission, and your portfolio all
-at once. The rhythm is simple: do the work, commit it, submit on the card. Done.
-
-Everything here runs on a small **anonymized** slice of real FlyRank search data. No credentials,
-no private client data, no setup headaches.
-
-> **New here?** Two reads: **[SETUP.md](SETUP.md)** (GitHub, Colab, and data access — ten
-> minutes, with every silent pitfall flagged), then **[GUIDE.md](GUIDE.md)** (every file
-> explained, what to edit vs. leave alone, and where your own work goes — five minutes).
+This repository contains all 8 weeks of coursework, assignments, and the final capstone project built during the FlyRank AI Internship.
 
 ---
 
-## Quickstart — first win in 2 minutes
+## 📌 Master Deliverables Index
 
-The fastest path is Google Colab (one click, zero install). Open Notebook 1 and run all cells:
+### Week 1 — Foundation & Environment
+* [Assignment 1.1 — ](https://docs.google.com/document/d/10rgcuFwZGrpm8fa70a5uniENycKtfLyN/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 1.2 — ](https://docs.google.com/document/d/1JO_kekdxEGvD_5F65IOuzkONPECscRyc/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 1.3 — ](https://docs.google.com/document/d/1Lc3_VEgO9VgmK0gmVRQDIeigDxda9SJW/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 1.4 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/notebooks/01_first_look_and_discovery.ipynb)
+* [Assignment 1.4.2 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/notebooks/02_your_first_readable_model.ipynb)
+* [Assignment 1.5 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w01_research_question.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/notebooks/01_first_look_and_discovery.ipynb?flush_cache=true)
- **Week 1 — Run it, then discover a real truth yourself**
+### Week 2 — Data Handling & Feature Logic
+* [Assignment 2.1 — ](https://docs.google.com/document/d/1Ojta3-gMBCOT9HSX_VxkTJ7Fg3EngUDU/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 2.2 — ](https://docs.google.com/document/d/1JytnHOy9uggxbxaXfmBQTPTXvZ8ofKag/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 2.3 — ](https://docs.google.com/document/d/1w0jzcUvVZWNqJ1AM1fw_0KkaLoCGKJP8/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 2.4 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w02_ml_task_framing.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/notebooks/02_your_first_readable_model.ipynb?flush_cache=true)
- **Week 2 — The model is just a rule you can read**
+### Week 3 — Classical ML & Model Building
+* [Assignment 3.1 — ](https://weberking.github.io/portfolioWeak5/)
+* [Assignment 3.2 — ](https://docs.google.com/document/d/1Qrj5JFueOTxlh4jx1WU8bb_9ZegT6FVA/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 3.3 — ](https://docs.google.com/document/d/1Qrj5JFueOTxlh4jx1WU8bb_9ZegT6FVA/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 3.4 — ](https://docs.google.com/document/d/10ktf5pTPzLJwOM28I2Tm9vaB-HaL0a77/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 3.5 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w03_data_contract.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/notebooks/03_working_with_the_full_release.ipynb?flush_cache=true)
- **Weeks 3+ — The full release (~79M rows) via DuckDB, no download needed** — hosted at
- [`FlyRank/internship-warehouse`](https://huggingface.co/datasets/FlyRank/internship-warehouse) (gated: request access + accept the data-use terms, approval is instant)
+### Week 4 — Deep Learning & Sequential Models
+* [Assignment 4.1 — ](https://weberking.github.io/ahsan-portfolio/)
+* [Assignment 4.2 — ](https://docs.google.com/document/d/10a1gv59saeMqrm6jA300oN4hTS2OcGIU/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 4.3 — ](https://docs.google.com/document/d/1u8NB_IcDpd82-MWYd88fnS56tSrz7EUV/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 4.4 — ](https://docs.google.com/document/d/140b-psgfwYn7UIzKClXicNrl0mbOC54j/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 4.5 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w04_baseline_score.ipynb)
 
----
+### Week 5 — AI Agents & Knowledge Integration
+* [Assignment 5.1 — ](https://github.com/AhsanullahCS/FlyRank_Internship)
+How GitHub Pages turns local code into a live website
 
-## Your assignment notebooks — open, fill, save, done
+When building a website locally, files like index.html or styles.css only exist on a personal computer. Opening index.html in a browser works, but the URL starts with file:///, meaning it is inaccessible to the public. Making it public requires a hosting web server.
 
-Every assignment is one pre-named skeleton notebook in `work/notebooks/`. Click its badge,
-fill the sections in order, then **File → Save a copy in GitHub → OK** — the dialog is
-already pre-filled with your repo and the right path.
+Instead of paying for a traditional cloud server, GitHub Pages acts as an automated, free host. Pushing code into a public GitHub repository and enabling Pages in the repository settings configures a server to handle incoming web requests, mapping repository files directly to a public URL.
 
-> **The badges know whose repo they're in.** About 30 seconds after you create your copy, an
-> automatic commit ("Point Colab badges at this copy") rewires every badge in it to open
-> **your** notebooks — with your saved work — instead of the shared read-only ones. Reading
-> this on the shared starter page? The badges below open blank previews; make your copy
-> first ([SETUP.md](SETUP.md), Moment 1).
+Here is how the deployment pipeline functions:
+* Trigger: Executing a git push alerts GitHub to changes on the main branch.
+* Build Pipeline: GitHub spins up a temporary virtual environment via GitHub Actions that parses the project files and builds a static production snapshot.
+* Delivery: The static assets are deployed across a server network. When a visitor requests the URL, GitHub's server returns the exact HTML, CSS, and JavaScript files immediately.
 
-| Week | Card | Notebook | Open |
-|---|---|---|---|
-| 1 | ML-02 | `w01_research_question` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w01_research_question.ipynb?flush_cache=true) |
-| 2 | ML-03 | `w02_ml_task_framing` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w02_ml_task_framing.ipynb?flush_cache=true) |
-| 3 | ML-04 | `w03_data_contract` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w03_data_contract.ipynb?flush_cache=true) |
-| 3 | ML-05 | `w03_feature_leakage_check` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w03_feature_leakage_check.ipynb?flush_cache=true) |
-| 4 | ML-06 | `w04_signal_audit` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w04_signal_audit.ipynb?flush_cache=true) |
-| 4 | ML-07 | `w04_baseline_score` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w04_baseline_score.ipynb?flush_cache=true) |
-| 5 | ML-08 | `w05_model` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w05_model.ipynb?flush_cache=true) |
-| 6 | ML-09 | `w06_validation_audit` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w06_validation_audit.ipynb?flush_cache=true) |
-| 7 | ML-10 | `w07_action_playbook` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w07_action_playbook.ipynb?flush_cache=true) |
-| 8 | ML-11 | `capstone` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/capstone.ipynb?flush_cache=true) |
+Deployment is simply hosting local files on a publicly accessible computer configured to serve web content on demand.
+* [Assignment 5.2 — ](https://docs.google.com/document/d/1SBv9zH_jnfQhjShTmhiRcWLzdE39PqzR/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 5.3 — ](https://github.com/AhsanullahCS/FlyRank_Internship/tree/main/work/portfolioAiAgentWeak5)
+* [Assignment 5.4 — ](https://weberking.github.io/portfolioWeak5/)
+* [Assignment 5.5 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w05_model.ipynb)
 
-Badges not opening *your* copy? Colab's built-in opener always works: **File → Open notebook
-→ GitHub tab** → paste `github.com/you/your-repo` → pick the notebook.
+### Week 6 — Automation & Workflow Orchestration
+* [Assignment 6.1 — ](https://docs.google.com/document/d/133wUwFmKx8wrjXBtmGTEFxZWUQhh0T8I/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 6.2 — ](https://weberking.github.io/portfolioWeak5/)
+=== WEEK 7: MOBILE AUDIT & FIX LOG ===
 
-### Prefer local?
+Live URL: https://weberking.github.io/portfolioWeak5/
 
-```bash
-git clone <this-repo-url>
-cd flyrank-ml-internship-starter
-pip install -r requirements.txt          # or: uv pip install -r requirements.txt
-python scripts/run_all.py
-```
+1. MOBILE AUDIT FINDINGS (BEFORE)
+- Headline & Subtitles: Text was slightly cramped on narrow mobile viewports (<375px), leading to awkward word wraps.
+- Text Contrast: Subtitle font color had lower contrast against the dark background, failing WCAG AA guidelines on mobile brightness.
+- Action Buttons: Demo and GitHub repo links were difficult to tap cleanly with a thumb on smaller screens.
+- Image & Layout Spacing: Project card paddings were tight, causing minimal separation between project descriptions.
 
-That runs the whole pipeline on the bundled sample and writes results to `outputs/`.
+2. FIXES APPLIED & ACTIONS TAKEN (AFTER)
+- Responsive Typography: Adjusted font sizes using fluid units and set `line-height: 1.6` across project descriptions for optimal mobile reading.
+- Color Contrast Boost: Updated body and subtitle CSS text colors to high-contrast hex codes (`#d1d5db` and `#ffffff`) to ensure full legibility across all screen brightness levels.
+- Touch Target Optimization: Added minimum height/width styling and padding (`padding: 10px 18px`) to all CTA/repository buttons to achieve a minimum 44px touch target size.
+- Link Integrity Check: Audited and verified all external links, repository URLs, and demo targets to ensure 100% active routing with no broken endpoints.
+- Image & Asset Compression: Ensured media assets are fully responsive (`max-width: 100%; height: auto;`) to prevent horizontal scrollbar overflows.
 
----
+3. AUDIT VERDICT
+Tested across mobile (iPhone/Android device viewports), tablet, and desktop widths. All sections render cleanly with zero overflow bugs or broken links.
+* [Assignment 6.3 — ](https://weberking.github.io/portfolioWeak5/)
+(https://docs.google.com/document/d/1yUem5RB2uisgqlLPrBYlUTxknx7yhaEy/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 6.4 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w06_validation_audit.ipynb)
 
-## What you get
+### Week 7 — Capstone Architecture & v2 Eval
+* [Assignment 7.1 — ](https://docs.google.com/document/d/17lPEgofuWdpGhwiNiNZ6T5HvXqXzNnJr/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 7.2 — ](https://docs.google.com/document/d/1IXtdiy5AsZWjYQnx_20YrLQprKZgd6gx/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 7.3 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w07_action_playbook.ipynb)
 
-| Path | What it is |
-|---|---|
-| `notebooks/` | Week 1–2 **first-win notebooks** (Colab-ready). Start here. |
-| `scripts/01–05` + `run_all.py` | The runnable reference pipeline: prepare → baseline → train → evaluate → PDF. |
-| `data/raw/content_refresh_anonymized.csv` | The anonymized starter dataset (~30k pages). |
-| `outputs/` | Example outputs so you can see the **target shape** (`model_report.md`, `refresh_queue_sample.csv`, `charts/`). |
-| `work/` | **Your space.** Lane experiments and your capstone live here — see `work/README.md`. |
-| `docs/` | The core docs + the data dictionary (see below). |
-
-### Read these (in `docs/`)
-
-1. **`ml-core-foundation-framework.md`** — the first-principles map of ML as a whole system. The backbone of the live sessions.
-2. **`ml-intern-dataset-and-lane-guide.md`** — how to use the data safely, the capstone workflow, and the analysis "lanes" you can pick from.
-3. **`intern-free-tooling-guide.md`** — the zero-budget tool stack (Python, Colab, free AI assistants). You never need to pay for anything.
-4. **`data-dictionary.md`** — all 44 columns: meaning, scale, and gotchas. Keep it open while you work.
-
----
-
-## The pipeline (what `run_all.py` does)
-
-```text
-01_prepare_features.py   clean + build the feature vector, define the label
-02_baseline_score.py     a transparent hand-rule "fix this first" score
-03_train_model.py        logistic regression, decision tree, random forest (client-holdout split)
-04_evaluate_and_export.py  ranked queue + charts + Markdown report
-05_build_pdf_report.py   a shareable PDF summary
-```
-
-On the bundled sample, the learned model clearly beats the hand-written rule at picking the right
-pages to review first (**Precision@50 ≈ 0.24 → 0.74**; the model number can land 0.68–0.74
-depending on library versions — the ~3x lift is the point). The notebooks compute these numbers
-live, so they always reflect the current data and environment.
-
-**Teaching point:** the model is the capstone, but the *workflow* is the lesson —
-`problem framing → data cleaning → baseline → first model → evaluation → explainable recommendation`.
+### Week 8 — Final Package, Documentation & Graduation (FL-09 / FL-10)
+* [Assignment 8.1 — ](https://github.com/AhsanullahCS/FlyRank_Internship/tree/main/work/portfolioAiAgentWeak5)
+* [Assignment 8.2 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/capstone.ipynb)
+* [Assignment 8.3 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/capstone.ipynb)
+* [Assignment 8.4 — ](#)
+* [Assignment 8.5 — ](#)
 
 ---
 
-## Data safety (read `DATA_USE.md`)
-
-- Only the small **anonymized** CSV ships here — no client names, domains, URLs, titles, or keywords.
-- **Never** add raw private client data to this repo or your fork. Need more data? Request an approved
-  release from your mentor — never export it yourself.
-- Don't paste client data into third-party AI tools.
-- Frame every result as **observed / measured / directional / decision-support** — never
-  "I predicted Google's algorithm."
-
-The `.gitignore` blocks datasets by default, and CI fails any commit that includes a dataset.
-
----
-
-## Assignments & schedule
-
-Weekly assignments, live events, and the capstone live on **your portal board** (your
-enrollment email has your access link). This repo is the shared technical foundation they all
-build on — and the `skills/` folder here is the instruction library for your AI assistant
-(start at [skills/README.md](skills/README.md)).
-
-**First time with GitHub?** You need exactly four things (full walkthrough: [SETUP.md](SETUP.md)):
-1. A free account at github.com.
-2. Your own copy of this repo: **Use this template → Create a new repository** → public.
-   (One click — brings the notebooks, `work/`, and the CI leak-guard with it.)
-3. In Colab: *File → Save a copy in GitHub* — opened from your copy's badges, the dialog is
-   already pre-filled with your repo and path, so it's just OK (Colab handles auth).
-4. That's your submission repo — share its **github.com/you/your-repo** URL with Assignment 1
-   (never a colab.research.google.com or drive.google.com link).
-
----
-
-*Track leads: Mirza Ašćerić (ML) · Hole (data engineering). Code under MIT (see `LICENSE`); data under `DATA_USE.md`.*
+### 🚀 Capstone
+* [capstone - 1](https://github.com/AhsanullahCS/FlyRank_Internship/tree/main/work/capstone_1_Portfolio)
