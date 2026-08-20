@@ -76,7 +76,8 @@ Live URL: https://weberking.github.io/portfolioWeak5/
 3. AUDIT VERDICT
 Tested across mobile (iPhone/Android device viewports), tablet, and desktop widths. All sections render cleanly with zero overflow bugs or broken links.
 * [Assignment 6.3 — ](https://weberking.github.io/portfolioWeak5/)
-(https://docs.google.com/document/d/1yUem5RB2uisgqlLPrBYlUTxknx7yhaEy/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+[Assignment 6.3— ](https://docs.google.com/document/d/1yUem5RB2uisgqlLPrBYlUTxknx7yhaEy/edit?usp=sharingouid=103091533862939822925rtpof=true&sd=true)
+
 * [Assignment 6.4 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/w06_validation_audit.ipynb)
 
 ### Week 7 — Capstone Architecture & v2 Eval
@@ -88,8 +89,10 @@ Tested across mobile (iPhone/Android device viewports), tablet, and desktop widt
 * [Assignment 8.1 — ](https://github.com/AhsanullahCS/FlyRank_Internship/tree/main/work/portfolioAiAgentWeak5)
 * [Assignment 8.2 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/capstone.ipynb)
 * [Assignment 8.3 — ](https://github.com/AhsanullahCS/FlyRank_Internship/blob/main/work/notebooks/capstone.ipynb)
-* [Assignment 8.4 — ](#)
-* [Assignment 8.5 — ](#)
+* [Assignment 8.4.0 — ](https://github.com/AhsanullahCS/FlyRank_Internship/tree/main/work/capstone_1_Portfolio)
+* [Assignment 8.4.1 — retrospection](https://docs.google.com/document/d/1osYKh7-aCegAt7672krHeysW-f1xltGP/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
+* [Assignment 8.4.2 portfolio— ](https://weberking.github.io/portfolioWeak5/)
+* [Assignment 8.5 — ](https://docs.google.com/document/d/1qc0mgvR7aDeS5kTPXM49WrG9wpUd5yIw/edit?usp=sharing&ouid=103091533862939822925&rtpof=true&sd=true)
 
 ---
 
