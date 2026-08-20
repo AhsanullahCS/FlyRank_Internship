@@ -98,3 +98,4 @@ Tested across mobile (iPhone/Android device viewports), tablet, and desktop widt
 
 ### 🚀 Capstone
 * [capstone - 1](https://github.com/AhsanullahCS/FlyRank_Internship/tree/main/work/capstone_1_Portfolio)
+* [capstone - 2 ML Track](https://github.com/AhsanullahCS/FlyRank_Internship/tree/main/work/capstone_ML_Track)
